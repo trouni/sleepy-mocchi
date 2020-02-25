@@ -1,0 +1,51 @@
+html, body, div, span, canvas { margin:0; padding:0; }
+
+#container {
+  overflow:hidden;
+  position:relative;
+  height: 100vh;
+  width: 100vw;
+  background:-o-linear-gradient(top, #04006C55, #2E7B9055);
+  background:-ms-linear-gradient(top, #04006C55, #2E7B9055);
+  background:-moz-linear-gradient(top, #04006C55, #2E7B9055);
+  background:-webkit-linear-gradient(top, #04006C99, #2E7B9099), url("../Images/backgrounds/background-01.png");
+  background:linear-gradient(top, #04006C99, #2E7B9099);
+  background-size: cover;
+      /*filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#060074', EndColorStr='#348CA2');
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr='#040429', EndColorStr='#257eb7')";*/
+}
+
+#pixie {
+  z-index:10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mochi-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*animation-delay: 1s;*/
+  /*animation-duration: 0.3s !important;;*/
+}
+
+#mochi {;
+  width: 60%;
+  animation-delay: 1s;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
