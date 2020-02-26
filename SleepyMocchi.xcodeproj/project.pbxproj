@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C343C8D9231011FD00972F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C343C8D8231011FD00972F40 /* AppDelegate.swift */; };
-		C343C8DF231011FE00972F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C343C8DE231011FE00972F40 /* Assets.xcassets */; };
-		C343C8E2231011FE00972F40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C343C8E1231011FE00972F40 /* Preview Assets.xcassets */; };
-		C343C8E5231011FE00972F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C343C8E3231011FE00972F40 /* LaunchScreen.storyboard */; };
-		C3693DE6231014C700366C05 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3693DE5231014C700366C05 /* MainViewController.swift */; };
-		C3693DE82310BD1400366C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3693DE72310BD1400366C05 /* Main.storyboard */; };
-		C3693E152310CC6400366C05 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = C3693E142310CC6400366C05 /* Audio */; };
-		C3693E172313D75600366C05 /* SleepPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3693E162313D75600366C05 /* SleepPlayer.swift */; };
-		C3693E192313DB0300366C05 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3693E182313DB0300366C05 /* TracksViewController.swift */; };
-		C3693E1D231666E900366C05 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = C3693E1C231666E900366C05 /* Images */; };
-		C3693E2023169D4100366C05 /* html in Resources */ = {isa = PBXBuildFile; fileRef = C3693E1F23169D4100366C05 /* html */; };
+		C325A33624060AB100E18A78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C325A33524060AB100E18A78 /* Preview Assets.xcassets */; };
+		C325A33924060ACF00E18A78 /* html in Resources */ = {isa = PBXBuildFile; fileRef = C325A33824060ACF00E18A78 /* html */; };
+		C325A33B24060ADB00E18A78 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = C325A33A24060ADB00E18A78 /* Images */; };
+		C325A33D24060AEB00E18A78 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = C325A33C24060AEB00E18A78 /* Audio */; };
+		C325A33F24060AF700E18A78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C325A33E24060AF700E18A78 /* Main.storyboard */; };
+		C325A34124060B0700E18A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C325A34024060B0700E18A78 /* Assets.xcassets */; };
+		C325A34424060B1900E18A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C325A34224060B1900E18A78 /* LaunchScreen.storyboard */; };
+		C325A34624060B3400E18A78 /* SleepPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325A34524060B3400E18A78 /* SleepPlayer.swift */; };
+		C325A34824060B4400E18A78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325A34724060B4400E18A78 /* AppDelegate.swift */; };
+		C325A34B24060B5200E18A78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325A34924060B5200E18A78 /* MainViewController.swift */; };
+		C325A34C24060B5200E18A78 /* TracksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325A34A24060B5200E18A78 /* TracksViewController.swift */; };
 		C3693E232317DE5100366C05 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3693E222317DE5100366C05 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C325A33524060AB100E18A78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "SleepyMocchi/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C325A33824060ACF00E18A78 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html; path = SleepyMocchi/html; sourceTree = "<group>"; };
+		C325A33A24060ADB00E18A78 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = SleepyMocchi/Images; sourceTree = "<group>"; };
+		C325A33C24060AEB00E18A78 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Audio; path = SleepyMocchi/Audio; sourceTree = "<group>"; };
+		C325A33E24060AF700E18A78 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SleepyMocchi/Main.storyboard; sourceTree = "<group>"; };
+		C325A34024060B0700E18A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SleepyMocchi/Assets.xcassets; sourceTree = "<group>"; };
+		C325A34324060B1900E18A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SleepyMocchi/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C325A34524060B3400E18A78 /* SleepPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SleepPlayer.swift; path = SleepyMocchi/SleepPlayer.swift; sourceTree = "<group>"; };
+		C325A34724060B4400E18A78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SleepyMocchi/AppDelegate.swift; sourceTree = "<group>"; };
+		C325A34924060B5200E18A78 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = SleepyMocchi/MainViewController.swift; sourceTree = "<group>"; };
+		C325A34A24060B5200E18A78 /* TracksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TracksViewController.swift; path = SleepyMocchi/TracksViewController.swift; sourceTree = "<group>"; };
 		C343C8D5231011FD00972F40 /* Sleepy Mocchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sleepy Mocchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C343C8D8231011FD00972F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C343C8DE231011FE00972F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +64,17 @@
 		C343C8CC231011FD00972F40 = {
 			isa = PBXGroup;
 			children = (
+				C325A34924060B5200E18A78 /* MainViewController.swift */,
+				C325A34A24060B5200E18A78 /* TracksViewController.swift */,
+				C325A34724060B4400E18A78 /* AppDelegate.swift */,
+				C325A34524060B3400E18A78 /* SleepPlayer.swift */,
+				C325A34224060B1900E18A78 /* LaunchScreen.storyboard */,
+				C325A34024060B0700E18A78 /* Assets.xcassets */,
+				C325A33E24060AF700E18A78 /* Main.storyboard */,
+				C325A33C24060AEB00E18A78 /* Audio */,
+				C325A33A24060ADB00E18A78 /* Images */,
+				C325A33824060ACF00E18A78 /* html */,
+				C325A33524060AB100E18A78 /* Preview Assets.xcassets */,
 				C343C8D7231011FD00972F40 /* Sleepy Mochi */,
 				C343C8D6231011FD00972F40 /* Products */,
 				C3693E212317DE5100366C05 /* Frameworks */,
@@ -105,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C343C8D4231011FD00972F40 /* Sleepy Mochi */ = {
+		C343C8D4231011FD00972F40 /* Sleepy Mocchi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C343C8E9231011FE00972F40 /* Build configuration list for PBXNativeTarget "Sleepy Mochi" */;
+			buildConfigurationList = C343C8E9231011FE00972F40 /* Build configuration list for PBXNativeTarget "Sleepy Mocchi" */;
 			buildPhases = (
 				C343C8D1231011FD00972F40 /* Sources */,
 				C343C8D2231011FD00972F40 /* Frameworks */,
@@ -117,7 +139,7 @@
 			);
 			dependencies = (
 			);
-			name = "Sleepy Mochi";
+			name = "Sleepy Mocchi";
 			productName = "Sleepy Mochi";
 			productReference = C343C8D5231011FD00972F40 /* Sleepy Mocchi.app */;
 			productType = "com.apple.product-type.application";
@@ -137,7 +159,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C343C8D0231011FD00972F40 /* Build configuration list for PBXProject "Sleepy Mochi" */;
+			buildConfigurationList = C343C8D0231011FD00972F40 /* Build configuration list for PBXProject "SleepyMocchi" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C343C8D4231011FD00972F40 /* Sleepy Mochi */,
+				C343C8D4231011FD00972F40 /* Sleepy Mocchi */,
 			);
 		};
 /* End PBXProject section */
@@ -160,13 +182,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3693E2023169D4100366C05 /* html in Resources */,
-				C3693E1D231666E900366C05 /* Images in Resources */,
-				C3693E152310CC6400366C05 /* Audio in Resources */,
-				C343C8E5231011FE00972F40 /* LaunchScreen.storyboard in Resources */,
-				C3693DE82310BD1400366C05 /* Main.storyboard in Resources */,
-				C343C8E2231011FE00972F40 /* Preview Assets.xcassets in Resources */,
-				C343C8DF231011FE00972F40 /* Assets.xcassets in Resources */,
+				C325A34424060B1900E18A78 /* LaunchScreen.storyboard in Resources */,
+				C325A34124060B0700E18A78 /* Assets.xcassets in Resources */,
+				C325A33F24060AF700E18A78 /* Main.storyboard in Resources */,
+				C325A33D24060AEB00E18A78 /* Audio in Resources */,
+				C325A33B24060ADB00E18A78 /* Images in Resources */,
+				C325A33924060ACF00E18A78 /* html in Resources */,
+				C325A33624060AB100E18A78 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,16 +199,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3693E172313D75600366C05 /* SleepPlayer.swift in Sources */,
-				C343C8D9231011FD00972F40 /* AppDelegate.swift in Sources */,
-				C3693DE6231014C700366C05 /* MainViewController.swift in Sources */,
-				C3693E192313DB0300366C05 /* TracksViewController.swift in Sources */,
+				C325A34B24060B5200E18A78 /* MainViewController.swift in Sources */,
+				C325A34C24060B5200E18A78 /* TracksViewController.swift in Sources */,
+				C325A34824060B4400E18A78 /* AppDelegate.swift in Sources */,
+				C325A34624060B3400E18A78 /* SleepPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C325A34224060B1900E18A78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C325A34324060B1900E18A78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		C343C8E3231011FE00972F40 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,10 +347,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Mochi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SleepyMocchi/Preview Content\"";
 				DEVELOPMENT_TEAM = P6ASNB836D;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Sleepy Mochi/Info.plist";
+				INFOPLIST_FILE = SleepyMocchi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,10 +368,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Sleepy Mochi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SleepyMocchi/Preview Content\"";
 				DEVELOPMENT_TEAM = P6ASNB836D;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Sleepy Mochi/Info.plist";
+				INFOPLIST_FILE = SleepyMocchi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C343C8D0231011FD00972F40 /* Build configuration list for PBXProject "Sleepy Mochi" */ = {
+		C343C8D0231011FD00972F40 /* Build configuration list for PBXProject "SleepyMocchi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C343C8E7231011FE00972F40 /* Debug */,
@@ -366,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C343C8E9231011FE00972F40 /* Build configuration list for PBXNativeTarget "Sleepy Mochi" */ = {
+		C343C8E9231011FE00972F40 /* Build configuration list for PBXNativeTarget "Sleepy Mocchi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C343C8EA231011FE00972F40 /* Debug */,
